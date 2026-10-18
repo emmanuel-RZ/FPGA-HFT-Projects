@@ -27,7 +27,7 @@ Each project will contain relevant source files, verification materials, and doc
 
 ### 01 — Ethernet Bring-Up
 
-**Status:** In Progress
+**Status:** Completed
 
 Initial development and verification of Ethernet communication functionality on the FPGA.
 
