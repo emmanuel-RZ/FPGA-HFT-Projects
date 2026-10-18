@@ -1,0 +1,25 @@
+{
+  "project": 1,
+  "slug": "01_ethernet_bringup",
+  "title": "Ethernet bring-up: clocks, reset and MII",
+  "goal": "Receive Ethernet activity and inspect the four-bit PHY interface.",
+  "probe_clock": "eth_rx_clk",
+  "probes": [
+    {
+      "index": 0,
+      "signal": "eth_rx_dv",
+      "width": 1
+    },
+    {
+      "index": 1,
+      "signal": "eth_rxd",
+      "width": 4
+    },
+    {
+      "index": 2,
+      "signal": "eth_rxerr",
+      "width": 1
+    }
+  ],
+  "historical_exact_snapshot": false
+}
