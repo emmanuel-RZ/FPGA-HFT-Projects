@@ -31,5 +31,11 @@ Each project will contain relevant source files, verification materials, and doc
 
 Initial development and verification of Ethernet communication functionality on the FPGA.
 
+### 02 — MII Nibbles to Bytes
+
+**Status:** In Progress
+
+Assemble two four-bit transfers into one byte.
+
 Additional projects will be documented as development progresses.
 
