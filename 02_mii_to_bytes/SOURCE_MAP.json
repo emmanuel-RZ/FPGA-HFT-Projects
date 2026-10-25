@@ -1,0 +1,15 @@
+{
+  "rtl/mii_rx_byte.sv": {
+    "kind": "unchanged uploaded module",
+    "source": "mii_rx_byte.sv",
+    "sha256": "e596056ef5f023caadfcda5a3893698c19d1b4b203831c6768ed70dfbf7eff43"
+  },
+  "rtl/top.sv": {
+    "kind": "new teaching wrapper",
+    "sources": [
+      "top.sv",
+      "top(1).sv"
+    ],
+    "changes": "Only the modules for this project are instantiated; explicit clock-IP reset; project-specific ILA probes. Project 8 disables speculative TX; project 5 latches the first decision on the LED."
+  }
+}

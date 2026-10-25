@@ -1,0 +1,25 @@
+{
+  "project": 2,
+  "slug": "02_mii_to_bytes",
+  "title": "MII nibbles to bytes",
+  "goal": "Assemble two four-bit transfers into one byte.",
+  "probe_clock": "eth_rx_clk",
+  "probes": [
+    {
+      "index": 0,
+      "signal": "rx_byte_valid",
+      "width": 1
+    },
+    {
+      "index": 1,
+      "signal": "rx_byte",
+      "width": 8
+    },
+    {
+      "index": 2,
+      "signal": "{eth_rx_dv,eth_rxerr,eth_rxd}",
+      "width": 6
+    }
+  ],
+  "historical_exact_snapshot": false
+}
