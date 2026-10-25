@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository documents a series of 11 FPGA projects designed to develop proficiency in low-latency hardware systems used in high-frequency trading (HFT).
+This repository documents a series of 11 guided FPGA projects designed to develop proficiency in low-latency hardware systems used in high-frequency trading (HFT).
 
 Projects are implemented using the **Digilent Arty A7-35T FPGA development board** and **AMD Vivado Design Suite**.
 
